@@ -1,3 +1,22 @@
 body {
-    background: rgba(172, 172, 172, 0.466);
+    background: #ededed;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    display: inline;
+    padding: 20px;
+}
+
+.heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
 }
