@@ -51,6 +51,18 @@ select {
 h3 {
   font-weight: bold;
 }
+.row1 div:last-child,
+.row2 div:last-child {
+  border-right: 1px solid #aaaaaa;
+}
+
+.row1 div {
+  border-bottom: none;
+}
+
+h3 {
+  font-weight: bold;
+}
 .row1 div img,
 .row2 div img {
   width: 198px;
